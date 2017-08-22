@@ -1,0 +1,7 @@
+1.what is DenseNets?
+  Dense Convo-lutional Network (DenseNet), which connects each layer to every other layer in a feed-forward fashion. Whereas
+traditional convolutional networks with L layers have L connections—one between each layer and its subsequent layer—our network has L(L+1)
+direct connections. For2
+ach layer, the feature-maps of all preceding layers are
+used as inputs, and its own feature-maps are used as inputs
+into all subsequent layers.
